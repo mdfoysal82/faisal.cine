@@ -1,0 +1,18 @@
+{
+  "_comment": "Rough-cut rules. 'fillers' are cut by default; 'maybe_fillers' are listed for review but kept unless enabled.",
+  "fillers": {
+    "en": ["um", "umm", "uh", "uhh", "uhm", "er", "erm", "ah", "ahh", "hmm", "hm", "mm", "mmm"],
+    "bn": ["উম", "উমম", "উহ", "উঁ", "আ", "আহ", "আঃ", "এ", "এহ", "অ্যা", "হুম", "হুমম", "ইয়ে"]
+  },
+  "maybe_fillers": {
+    "en": ["like", "basically", "actually", "you know", "i mean", "so"],
+    "bn": ["মানে", "আসলে", "তো", "ধরেন", "বলতে গেলে", "কি বলব"]
+  },
+  "max_pause": 0.55,
+  "keep_pause": 0.22,
+  "lead_in": 0.15,
+  "tail_out": 0.35,
+  "word_pad": 0.06,
+  "min_keep": 0.12,
+  "cut_stutters": true
+}

@@ -1,0 +1,23 @@
+{
+  "_comment": "Vendored HyperFrames engine. Never hand-edit the vendored skill folders: change 'ref' (and 'cli') here, then run tools/update_vendor.sh.",
+  "hyperframes": {
+    "source": "https://github.com/heygen-com/hyperframes",
+    "ref": "6ae1af7470133db72de6d9bbceeaf80e85695c68",
+    "cli": "0.8.143",
+    "license": "Apache-2.0",
+    "dest": ".claude/skills",
+    "skills": [
+      "hyperframes",
+      "hyperframes-core",
+      "hyperframes-cli",
+      "hyperframes-animation",
+      "hyperframes-creative",
+      "hyperframes-audio",
+      "hyperframes-registry",
+      "media-use",
+      "motion-graphics",
+      "talking-head-recut",
+      "embedded-captions"
+    ]
+  }
+}

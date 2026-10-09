@@ -1,0 +1,16 @@
+{
+  "name": "signature",
+  "description": "Default brand look for short explainers: solid dark cards in the top half, warm yellow accent.",
+  "fonts": { "display": "Anek Bangla", "body": "Hind Siliguri" },
+  "colors": {
+    "panel": "rgba(14,15,19,0.90)",
+    "text": "#FFFFFF",
+    "muted": "#C9CCD6",
+    "accents": ["#FFC94A", "#4AD7FF", "#FF6B6B", "#7CFFB2", "#C49BFF"]
+  },
+  "radius": 40,
+  "glass": false,
+  "zone": { "top": 0.07, "height": 0.40, "side": 0.06 },
+  "type_scale": { "kicker": 0.032, "title": 0.068, "body": 0.040, "stat": 0.16 },
+  "motion": { "in": 0.45, "out": 0.30, "stagger": 0.08 }
+}

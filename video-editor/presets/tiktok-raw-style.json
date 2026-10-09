@@ -1,0 +1,31 @@
+{
+  "name": "tiktok-raw",
+  "description": "Native TikTok look: a white hook box with black text over the first seconds, captions low under the face.",
+  "fonts": { "display": "Hind Siliguri", "body": "Hind Siliguri" },
+  "colors": {
+    "panel": "#FFFFFF",
+    "text": "#000000",
+    "muted": "#222222",
+    "accents": ["#FE2C55", "#25F4EE", "#FFC94A", "#7CFFB2", "#C49BFF"]
+  },
+  "radius": 18,
+  "glass": false,
+  "zone": { "top": 0.16, "side": 0.08 },
+  "type_scale": { "kicker": 0.030, "title": 0.072, "body": 0.040, "stat": 0.14 },
+  "motion": { "in": 0.25, "out": 0.20, "stagger": 0.05 },
+  "captions": {
+    "font": "Hind Siliguri",
+    "size": 0.050,
+    "bold": true,
+    "primary": "#FFFFFF",
+    "highlight": "#FFFFFF",
+    "outline": "#000000",
+    "outline_width": 0.0055,
+    "shadow": 0,
+    "position_y": 0.70,
+    "max_chars": 18,
+    "max_lines": 1,
+    "words_per_chunk": 3,
+    "mode": "pop"
+  }
+}

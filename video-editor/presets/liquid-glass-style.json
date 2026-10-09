@@ -1,0 +1,19 @@
+{
+  "name": "liquid-glass",
+  "description": "YouTube long-form: frosted-glass lower thirds and side cards (real blur of the footage behind the card), plus punch-in zooms.",
+  "fonts": { "display": "Anek Bangla", "body": "Hind Siliguri" },
+  "colors": {
+    "panel": "rgba(255,255,255,0.16)",
+    "border": "rgba(255,255,255,0.45)",
+    "text": "#FFFFFF",
+    "muted": "rgba(255,255,255,0.82)",
+    "accents": ["#8FD3FF", "#FFD98F", "#B9A4FF", "#9BFFC9", "#FF9F9F"]
+  },
+  "radius": 34,
+  "glass": true,
+  "glass_blur": 28,
+  "zone": { "lower_third_y": 0.70, "side": 0.05 },
+  "type_scale": { "kicker": 0.030, "title": 0.060, "body": 0.036, "stat": 0.14 },
+  "motion": { "in": 0.55, "out": 0.35, "stagger": 0.08 },
+  "zoom": { "default_scale": 1.12, "ease_seconds": 0.35 }
+}

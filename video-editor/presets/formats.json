@@ -1,0 +1,29 @@
+{
+  "short-explainer": {
+    "label": "Short: explainer",
+    "width": 1080,
+    "height": 1920,
+    "graphics": { "style": "signature-style", "layout": "top-half-cards" },
+    "captions": { "style": "captions-style", "burn_in": true },
+    "thumbnail": "usually-skip",
+    "loudness_lufs": -14
+  },
+  "short-tiktok": {
+    "label": "Short: TikTok / raw",
+    "width": 1080,
+    "height": 1920,
+    "graphics": { "style": "tiktok-raw-style", "layout": "hook-card" },
+    "captions": { "style": "tiktok-raw-style", "burn_in": true },
+    "thumbnail": "skip",
+    "loudness_lufs": -14
+  },
+  "youtube": {
+    "label": "Long-form: YouTube",
+    "width": 1920,
+    "height": 1080,
+    "graphics": { "style": "liquid-glass-style", "layout": "glass-zoom" },
+    "captions": { "style": null, "burn_in": false, "sidecar": "srt" },
+    "thumbnail": "always",
+    "loudness_lufs": -14
+  }
+}

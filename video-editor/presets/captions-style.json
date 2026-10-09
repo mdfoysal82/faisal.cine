@@ -1,0 +1,19 @@
+{
+  "name": "captions",
+  "description": "Short explainer captions: centered, locked position below the graphics zone, active word highlighted on the beat.",
+  "captions": {
+    "font": "Hind Siliguri",
+    "size": 0.042,
+    "bold": true,
+    "primary": "#FFFFFF",
+    "highlight": "#FFC94A",
+    "outline": "#000000",
+    "outline_width": 0.006,
+    "shadow": 0,
+    "position_y": 0.62,
+    "max_chars": 24,
+    "max_lines": 2,
+    "words_per_chunk": 0,
+    "mode": "highlight"
+  }
+}

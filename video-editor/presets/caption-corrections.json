@@ -1,0 +1,12 @@
+{
+  "_comment": "Upstream brand + spelling fixes, applied to the transcript after the rough cut (captions, script, graphics all inherit them). Keys may be multi-word phrases; matching ignores case and punctuation.",
+  "replace": {
+    "ক্লড": "Claude",
+    "ক্লাউড কোড": "Claude Code",
+    "হাইপার ফ্রেমস": "HyperFrames",
+    "হাইপারফ্রেমস": "HyperFrames",
+    "ইউটিউব": "YouTube",
+    "টিকটক": "TikTok",
+    "faisal cine": "Faisal Cine"
+  }
+}

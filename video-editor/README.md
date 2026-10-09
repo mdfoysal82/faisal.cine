@@ -29,7 +29,10 @@ git clone https://github.com/mdfoysal82/faisal.cine.git && cd faisal.cine/video-
 ./setup.sh --whisperx      # (ঐচ্ছিক) WhisperX ইঞ্জিন
 ```
 
-Homebrew আগে থেকে ইনস্টল থাকতে হবে (https://brew.sh)। প্রথমবার transcription চালালে
+Homebrew আগে থেকে ইনস্টল থাকতে হবে (https://brew.sh)। Caption-এর জন্য libass লাগে,
+তাই setup নিজে থেকে `ffmpeg-full` install করে নেয়, কারণ Homebrew-এর সাধারণ `ffmpeg`-এ এটা নেই।
+Claude Code install করা না থাকলে: `curl -fsSL https://claude.ai/install.sh | bash`, তারপর
+নতুন Terminal window খুলুন। প্রথমবার transcription চালালে
 Whisper large-v3 model (~3 GB) ডাউনলোড হবে।
 
 ## ব্যবহার

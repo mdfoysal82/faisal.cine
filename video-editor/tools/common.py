@@ -15,6 +15,13 @@ PRESETS = ROOT / "presets"
 ASSETS = ROOT / "assets"
 MUSIC = ROOT / "music"
 
+# Homebrew's plain `ffmpeg` formula has no libass (captions) or freetype (drawtext);
+# `ffmpeg-full` has both but is keg-only, so put it first on PATH when it is installed.
+for _prefix in ("/opt/homebrew/opt/ffmpeg-full/bin", "/usr/local/opt/ffmpeg-full/bin"):
+    if os.path.isfile(os.path.join(_prefix, "ffmpeg")):
+        os.environ["PATH"] = _prefix + os.pathsep + os.environ.get("PATH", "")
+        break
+
 
 def die(msg: str) -> None:
     print(f"error: {msg}", file=sys.stderr)

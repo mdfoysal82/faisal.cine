@@ -20,7 +20,8 @@ need_brew() {  # need_brew <command> <formula>
 
 # ffmpeg with libass (captions) + freetype. Homebrew's plain `ffmpeg` dropped them;
 # `ffmpeg-full` has them (keg-only - tools/common.py puts it first on PATH).
-has_libass() { "$1" -hide_banner -filters 2>/dev/null | grep -q ' ass '; }
+# Capture first: with `set -o pipefail`, `ffmpeg | grep -q` fails when grep exits early (SIGPIPE).
+has_libass() { local out; out="$("$1" -hide_banner -filters 2>/dev/null)" || return 1; grep -qE '[[:space:]]ass[[:space:]]' <<<"$out"; }
 FFMPEG_BIN="$(command -v ffmpeg || true)"
 if command -v brew >/dev/null; then
   FULL="$(brew --prefix)/opt/ffmpeg-full/bin/ffmpeg"

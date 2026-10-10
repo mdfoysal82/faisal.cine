@@ -15,7 +15,8 @@ recommended first). Never ask more than you need; use the defaults below when ob
 
 Ask what you do not already know:
 1. Format: `short-explainer` (Short: explainer) / `short-tiktok` (TikTok / raw) / `youtube` (Long-form).
-2. Job name (offer a slug made from the file name).
+2. Job name (offer a slug made from the file or folder name).
+   The user may give one clip, several clips or a folder of clips - all are fine (see `intake`).
 3. Background music: none / pick from `music/` (run `python3 tools/music.py <job> --list` after intake).
 4. Thumbnail: follow the format default (youtube always, shorts skip) unless they say otherwise.
 
